@@ -2,20 +2,42 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-}
-header {
-    margin: 0;
-    padding: 0;
-    align-content: center;
-    text-align: center;
-    
-}
-nav {
-    text-align: right;
-    word-spacing: 10px;
-    padding: 10px;
-    position: relative;
-    background-color: rgb(16, 85, 44);
 
 }
-body 
+body {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    background-color: aliceblue;
+    color: aquamarine;
+}
+
+h1,h2 {
+    margin: 20px;
+}
+
+main{
+    padding: 68px 0;
+}
+
+li{
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header, footer{
+height: 60px;
+width: 100%;
+line-height: 60px;
+background-color: rgba(0, 0, 255, 0.425);
+}
+header{
+    position: fixed;
+    border-bottom: 10px solid white;
+}
